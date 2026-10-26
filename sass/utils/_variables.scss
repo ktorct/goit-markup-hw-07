@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #2f303a;
+  --button-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --portfolio-card-color: #eeeeee;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.dark {
+  color: #000000;
+}
+
+.container {
+  width: 1200px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// @mixin fontWeight($weight, $size, $width, $height) {
+//   font-weight: $weight;
+//   font-size: $size;
+//   width: $width;
+//   height: $height;
+// }
+
+// .box {
+//   font-weight: 400;
+//   font-size: 12px;
+//   width: 40px;
+//   height: 40px;
+// }
+
+// .box2 {
+//   @include fontWeight(400, 12px, 40px, 40px)
+// }
